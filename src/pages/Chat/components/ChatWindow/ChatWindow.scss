@@ -1,0 +1,17 @@
+.chat-body{
+    height: 87vh;
+    // @media (max-width:1199.98px) {
+    //     height: 100vh;
+       
+    // }
+}
+.simplebar-content{
+    height: 76vh;
+    padding: 20px;
+    overflow-y: scroll;
+    @media (max-width:1199.98px) {
+        // height: 87vh;
+        height: calc(100vh - 69px);
+       
+    }
+}
